@@ -30,7 +30,7 @@ group :production do
 end
 
 group :development, :test do
-    'pg'
+    'sqlite3'
 end
 
 group :development, :test do
